@@ -2,8 +2,3 @@
 from = "/*"
 to = "/bewerbung.html"
 status = 200
-
-[[headers]]
-  for = "/*"
-  [headers.values]
-    Content-Security-Policy = "default-src 'self'; img-src 'self' data:;"
